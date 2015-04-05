@@ -22,4 +22,29 @@ var bio = {
   "skills" : skills
 };
 
-$("#main").append(bio.name);
+bio["city"] = "New Orleans";
+bio.email = "rachelleecampbell@gmail.com";
+
+$("#main").append(bio.city);
+
+// $("#main").append(bio.name);
+
+
+var edu = {};
+edu["name"] = "West Virginia University",
+edu["year"] = "2011",
+edu["city"] = "Morgantown",
+
+$("#main").append(edu.name);
+
+
+var work = {};
+work.employer = "Tresor Gallery",
+work.position = "Director",
+work.years = 1.5,
+
+$("#main").append(work["position"]);
+
+
+
+
